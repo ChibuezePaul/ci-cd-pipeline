@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-test",
+  "version": "1.0.0",
+  "description": "CI/CD Test",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "ChibuezePaul",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.3.0"
+  }
+}
