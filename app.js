@@ -1,5 +1,5 @@
 const http = require("http");
-const port = 3500;
+const port = process.env.port;
 http
 .createServer((req, res) => res.end("Hello CI/CI Pipeline..."))
-.listen(process.env.port || port, () => console.log(`CI/CD Pipleline Started On ${port}...`));
+.listen(port, () => console.log(`CI/CD Pipleline Started On ${port}...`));
